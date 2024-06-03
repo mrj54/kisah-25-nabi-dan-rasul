@@ -1,0 +1,73 @@
+body {
+    font-family: 'Comic Sans MS', 'Arial Rounded MT Bold', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/slider/bc-16.jpg);
+    
+}
+
+
+header, footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #b0ccda;
+}
+
+h1 {
+    color: #333;
+    font-size: 2.5em;
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+h2 {
+    color: #666;
+    font-size: 2em;
+}
+
+p {
+    color: #664600;
+    font-size: 1.2em;
+    line-height: 1.6;
+    font-family: 'Comic Sans MS', 'Arial Rounded MT Bold', sans-serif;
+}
+
+button {
+    background-color: #fae1ed;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #5d88e4;
+}
+
+footer p {
+    color: #333;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+@media (max-width: 480px) {
+    p {
+        font-size: 1rem;
+    }
+    body{
+        background-size: contain;
+        background-repeat: repeat-y;
+        font-family: 'Comic Sans MS', 'Arial Rounded MT Bold', sans-serif;
+    }
+   
+}
